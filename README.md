@@ -1,6 +1,8 @@
 # 🪙 Simulación de Lanzamiento de Monedas :  
 ## 🎯 Probabilidad de obtener 3 caras en 2 lanzamientos :
 
+<img width="1282" height="1079" alt="image" src="https://github.com/user-attachments/assets/b0fcf253-71be-4de0-8346-9fa4daa82564" />
+
 ---
 
 ### 📘 Descripción :  
