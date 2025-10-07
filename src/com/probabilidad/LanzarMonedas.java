@@ -5,7 +5,7 @@ import java.util.Random;
 public class LanzarMonedas {
 
     public static void main(String[] args) {
-        int lanzamientosPorExperimento = 5;
+        int lanzamientosPorExperimento = 2;
         int carasDeseadas = 3;
         int totalExperimentos = 100000; // número de simulaciones
 
@@ -15,7 +15,7 @@ public class LanzarMonedas {
         for (int i = 0; i < totalExperimentos; i++) {
             int caras = 0;
 
-            // Lanzar la moneda 5 veces
+            // Lanzar la moneda 2 veces
             for (int j = 0; j < lanzamientosPorExperimento; j++) {
                 boolean esCara = random.nextBoolean(); // true = cara, false = sello
                 if (esCara) caras++;
@@ -58,7 +58,7 @@ public class LanzarMonedas {
 /*
 📊 Ejemplo de salida en consola :
         ----- Lanzamiento de Monedas -----
-Lanzamientos por experimento: 5
+Lanzamientos por experimento: 2
 Caras deseadas: 3
 Número de experimentos: 100000
 Probabilidad empírica (simulada): 0.3128
